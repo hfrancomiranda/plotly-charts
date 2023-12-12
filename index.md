@@ -1,0 +1,2 @@
+## Purchases as of today
+
