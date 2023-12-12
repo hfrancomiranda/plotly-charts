@@ -1,1 +1,7 @@
-# plotly-charts
+# Detail/tracking of xmas purchases
+
+
+
+
+
+
