@@ -1,7 +1,7 @@
-# Purchases
+# Detail/tracking of xmas purchases
 
 
 
 
-# List
+
 
