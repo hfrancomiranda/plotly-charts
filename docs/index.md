@@ -10,3 +10,6 @@
 
 ## Link to Lion's page
 [Link here...](./lions-page.html).
+
+## Link to Bird's page
+[Link here...](./birds-page.html).
