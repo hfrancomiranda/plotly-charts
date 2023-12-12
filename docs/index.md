@@ -7,3 +7,6 @@
 
 ## Link to Panda's page
 [Link here...](./kates-page.html).
+
+## Link to Lion's page
+[Link here...](./lions-page.html).
