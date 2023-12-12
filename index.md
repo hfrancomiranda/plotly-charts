@@ -3,4 +3,4 @@
 ![pie-chart](assets/images/purchases.png)
 
 ## Link to Gigi stuff...let me know what you think :)
-![Gigi's List](index.html)
+![Gigi's List](./index.html)
