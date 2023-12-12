@@ -3,3 +3,5 @@ description: Santa is coming soon!
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+markdown: kramdown
+
