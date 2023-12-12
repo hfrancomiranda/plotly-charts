@@ -6,4 +6,4 @@
 [Gigi's List](https://www.amazon.com/hz/wishlist/ls/3GK3IRIXKIWZF/ref=nav_wishlist_lists_1)
 
 ## Link to interactive table
-[](https://hfrancomiranda.github.io/plotly-charts/xmas-table.html)
+[Interactive Table](https://hfrancomiranda.github.io/plotly-charts/xmas-table.html)
