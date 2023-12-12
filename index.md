@@ -3,4 +3,4 @@
 ![pie-chart](assets/images/purchases.png)
 
 ## Link to Gigi stuff...let me know what you think :)
-![gigi](https://www.amazon.com/hz/wishlist/ls/3GK3IRIXKIWZF/ref=nav_wishlist_lists_1)
+![Gigi List](https://www.amazon.com/hz/wishlist/ls/3GK3IRIXKIWZF/ref=nav_wishlist_lists_1)
