@@ -4,6 +4,6 @@ layout: default
 
 ## Pandas's remaiming items
 
-_yay_
+![Pandas items](docs/assets/images/pandas.png)
 
 [back](./)
