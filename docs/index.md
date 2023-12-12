@@ -13,3 +13,6 @@
 
 ## Link to Bird's page
 [Link here...](./birds-page.html).
+
+## Link to Fish's page
+[Link here...](./fishs-page.html).
