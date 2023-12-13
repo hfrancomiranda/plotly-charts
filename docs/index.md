@@ -5,14 +5,24 @@
 ## Link to Gigi stuff...let me know what you think :)
 [Gigi's List](https://www.amazon.com/hz/wishlist/ls/3GK3IRIXKIWZF/ref=nav_wishlist_lists_1)
 
-## Link to Panda's page
+## Panda's page
 [Link here...](./pandas-page.html).
 
-## Link to Lion's page
+## Lion's page
 [Link here...](./lions-page.html).
 
-## Link to Bird's page
+## Bird's page
 [Link here...](./birds-page.html).
 
-## Link to Fish's page
+## Fish's page
 [Link here...](./fishs-page.html).
+
+
+## Orders
+
+| Desc         | Store             | Status  | Name  |
+|:-------------|:------------------|:--------|:------|
+| no se        | good swedish fish | pending | Panda | 
+| no se        | good and plenty   | pending | Lion  |
+| no se        | good `oreos`      | pending | Bird  |
+| no se        | good `zoute` drop | pending | Fish  |
