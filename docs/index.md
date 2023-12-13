@@ -25,10 +25,32 @@
 | lash serum           | the ordinary      | pending | bird  | $14.50 |
 | square neck bodysuit | amazon            | pending | bird  | $28.99 |
 | bracelet             | evry jewels`      | pending | bird  | $9.40  |
-| lip gloss            | amazon            | pending | bird  | $6.99  |
+| lip gloss            | walgreens         | pending | bird  | $6.99  |
 | dress                | amazon            | pending | bird  | $24.88 |
 | shea moisture        | ulta              | pending | bird  | $13.00 |
-| curling iron         | beachwaver        | pending | panda | $69.00 |
+| long sleeve jumpsuit | amazon            | pending | bird  | $39.99 |
+| elta md sunscreen    | amazon            | pending | bird  | $36.10 |
+| long sleeve sweater  | amazon     `      | pending | bird  | $33.99 |
+| lounge dress         | amazon            | pending | bird  | $32.99 |
+| new balance 9060     | stockx            | pending | bird  | $116.00|
+| gold rings           | amazon            | pending | bird  | $15.95 |
+| bum bum mini set     | sephora           | pending | panda | $42.00 |
 | drunk elephant skin  | sephora           | pending | panda | $49.00 |
 | sza hoodie           | amazon            | pending | panda | $39.99 |
+| elta md sunscreen    | amazon            | pending | panda | $36.10 |
+| glow recipe kiy      | sephora           | pending | panda | $34.00 |
+| sleeveless bodysuit  | amazon            | pending | panda | $25.99 |
+| square neck bodysuit | amazon            | pending | panda | $25.99 |
+| barrier serum        | ulta              | pending | panda | $17.00 |
+| dossier perfume      | dossier           | pending | panda | $14.50 |
+| patrick star spray   | sephora           | pending | panda | $17.00 |
+| wide leg pants       | victoria secret   | pending | panda | $54.95 |
+
+
+
+
+
+
+
+
 
