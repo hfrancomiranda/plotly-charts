@@ -20,11 +20,16 @@
 
 ## Orders
 
-| Desc                 | Store             | Status  | Name  |
-|:---------------------|:------------------|:--------|:------|
-| lash serum           | the ordinary      | pending | bird  | 
-| square neck bodysuit | amazon            | pending | bird  |
-| bracelet             | evry jewels`      | pending | bird  |
-| lip gloss            | amazon            | pending | bird  |
-| dress                | amazon            | pending | bird  |
-| shea moisture        | ulta              | pending | bird  |
+| Desc                 | Store             | Status  | Name  | Price  | 
+|:---------------------|:------------------|:--------|:------|:-------|
+| lash serum           | the ordinary      | pending | bird  | $14.50 |
+| square neck bodysuit | amazon            | pending | bird  | $28.99 |
+| bracelet             | evry jewels`      | pending | bird  | $9.40  |
+| lip gloss            | amazon            | pending | bird  | $6.99  |
+| dress                | amazon            | pending | bird  | $24.88 |
+| shea moisture        | ulta              | pending | bird  | $13.00 |
+| curling iron         | beachwaver        | pending | panda | $69.00 |
+| drunk elephant skin  | sephora           | pending | panda | $49.00 |
+| sza hoodie           | amazon            | pending | panda | $39.99 |
+| dress                | amazon            | pending | bird  | $24.88 |
+| shea moisture        | ulta              | pending | bird  | $13.00 |
