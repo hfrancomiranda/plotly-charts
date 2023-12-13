@@ -31,5 +31,4 @@
 | curling iron         | beachwaver        | pending | panda | $69.00 |
 | drunk elephant skin  | sephora           | pending | panda | $49.00 |
 | sza hoodie           | amazon            | pending | panda | $39.99 |
-| dress                | amazon            | pending | bird  | $24.88 |
-| shea moisture        | ulta              | pending | bird  | $13.00 |
+
