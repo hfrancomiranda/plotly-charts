@@ -45,8 +45,14 @@
 | dossier perfume      | dossier           | pending | panda | $14.50 |
 | patrick star spray   | sephora           | pending | panda | $17.00 |
 | wide leg pants       | victoria secret   | pending | panda | $54.95 |
-
-
+| pj set               | amazon            | pending | lion  | $21.98 |
+| one piece jumpsuit   | amazon            | pending | lion  | $29.95 |
+| long sleeve crew     | amazon            | pending | lion  | $31.99 |
+| gym bag              | gymshark          | pending | lion  | $36.00 |
+| elta md              | amazon            | pending | lion  | $36.10 |
+| desk chair           | amazon            | pending | lion  | $76.99 |
+| vizio soundbar       | bestbuy           | pending | lion  | $139.99|
+| leggins              | amazon            | pending | lion  | $38.99 |
 
 
 
