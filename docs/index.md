@@ -20,9 +20,11 @@
 
 ## Orders
 
-| Desc         | Store             | Status  | Name  |
-|:-------------|:------------------|:--------|:------|
-| no se        | good swedish fish | pending | Panda | 
-| no se        | good and plenty   | pending | Lion  |
-| no se        | good `oreos`      | pending | Bird  |
-| no se        | good `zoute` drop | pending | Fish  |
+| Desc                 | Store             | Status  | Name  |
+|:---------------------|:------------------|:--------|:------|
+| lash serum           | the ordinary      | pending | bird  | 
+| square neck bodysuit | amazon            | pending | bird  |
+| bracelet             | evry jewels`      | pending | bird  |
+| lip gloss            | amazon            | pending | bird  |
+| dress                | amazon            | pending | bird  |
+| shea moisture        | ulta              | pending | bird  |
