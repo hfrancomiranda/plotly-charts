@@ -9,12 +9,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5  # Use the latest version that supports node16
+        uses: actions/checkout@v4  # Use the latest version that supports node16
 
       - name: Set up Python
-        uses: actions/setup-python@v5  # Use the latest version that supports node16
+        uses: actions/setup-python@v4  # Use the latest version that supports node16
         with:
-          python-version: 3.9
+          python-version: 'graalpy-22.3'
 
       - name: Run Python Script
         run: |
