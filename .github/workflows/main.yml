@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2.4.4  # Use the latest version that supports node16
+        uses: actions/checkout@v5  # Use the latest version that supports node16
 
       - name: Set up Python
-        uses: actions/setup-python@v2.5.2  # Use the latest version that supports node16
+        uses: actions/setup-python@v5  # Use the latest version that supports node16
         with:
           python-version: 3.9
 
