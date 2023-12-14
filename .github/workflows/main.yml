@@ -26,4 +26,4 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python xmas-trackingv2.py
+          python /home/herb/PycharmProjects/plotly-charts/docs/xmas-trackingv2.py
