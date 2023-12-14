@@ -22,6 +22,7 @@ jobs:
           pip install pandas
           pip install plotly
           pip install dash
+          pip install dash_bootstrap_components
 
       - name: Run Python Script
         run: |
