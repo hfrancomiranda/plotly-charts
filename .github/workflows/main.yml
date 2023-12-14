@@ -26,4 +26,5 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python docs/xmas-trackingv2.py    
+          cd docs
+          python xmas-trackingv2.py    
