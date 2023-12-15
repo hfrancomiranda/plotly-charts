@@ -22,7 +22,7 @@ jobs:
           pip install pandas
           pip install PyQt5
           pip uninstall opencv-python
-          pip install opencv-python-headless
+          pip install --no-binary opencv-python opencv-python
 
       - name: Run Python Script
         run: |
