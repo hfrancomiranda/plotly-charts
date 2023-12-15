@@ -32,4 +32,9 @@ layout: default
 
 ![Pandas-items](assets/images/charmed_earrings.png)
 
+### Kendall Hoops
+[Site link here...](https://evryjewels.com/products/kendall-hoops?_pos=2&_sid=06913d34f&_ss=r&variant=40011664719949)
+
+![Pandas-items](assets/images/kendall_hoops.png)
+
 [back](./)
