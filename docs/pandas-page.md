@@ -7,5 +7,9 @@ layout: default
 
 ![Pandas-items](assets/images/aerie_leggins.png)
 
+### Size regular fit
+[Site link here...](https://us.brandymelville.com/products/skylar-lace-eyelet-tank?pr_prod_strat=use_description&pr_rec_id=efbe371c3&pr_rec_pid=6975790776529&pr_ref_pid=5833672491217&pr_seq=uniform)
+
+![Pandas-items](assets/images/brandy_melville.png)
 
 [back](./)
