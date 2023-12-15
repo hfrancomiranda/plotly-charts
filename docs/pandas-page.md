@@ -27,4 +27,9 @@ layout: default
 
 ![Pandas-items](assets/images/culture_hoodie.png)
 
+### Charmed Earrings
+[Site link here...](https://evryjewels.com/collections/best-sellers/products/charmed-earrings)
+
+![Pandas-items](assets/images/charmed_earrings.png)
+
 [back](./)
