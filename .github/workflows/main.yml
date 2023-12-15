@@ -24,6 +24,9 @@ jobs:
           pip install dash
           pip install dash_bootstrap_components
           pip install openpyxl
+          pip install dash-core-components
+          pip install dash-html-components
+          pip install dash-table
 
       - name: Run Python Script
         run: |
