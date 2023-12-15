@@ -47,4 +47,9 @@ layout: default
 
 ![Pandas-items](assets/images/rare_beauty.png)
 
+### Bum Bum
+[Site link here...](https://www.sephora.com/product/bum-bum-mini-body-ritual-P507149?country_switch=us&lang=en&skuId=2713907&om_mmc=ppc-GG_17798154149___2713907__9011767_c&country_switch=us&lang=en&gad_source=1&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMohlbmUwie5pTtm9beVwgjm2gkNlayk7MQxTSzU7zfVIDbYIxeEchwaAlt-EALw_wcB&gclsrc=aw.ds)
+
+![Pandas-items](assets/images/bum_bum.png)
+
 [back](./)
