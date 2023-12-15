@@ -42,4 +42,9 @@ layout: default
 
 ![Pandas-items](assets/images/lucky_necklace.png)
 
+### Rare Beauty
+[Site link here...](https://www.rarebeauty.com/products/soft-pinch-tinted-lip-oil?variant=40386673344647)
+
+![Pandas-items](assets/images/rare_beauty.png)
+
 [back](./)
