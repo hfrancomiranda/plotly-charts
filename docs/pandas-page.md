@@ -37,4 +37,9 @@ layout: default
 
 ![Pandas-items](assets/images/kendall_hoops.png)
 
+### Lucky Necklace
+[Site link here...](https://evryjewels.com/collections/best-sellers/products/lucky-necklace)
+
+![Pandas-items](assets/images/lucky_necklace.png)
+
 [back](./)
