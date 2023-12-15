@@ -27,6 +27,7 @@ jobs:
           pip install dash-core-components
           pip install dash-html-components
           pip install dash-table
+          pip install -U kaleido
 
       - name: Run Python Script
         run: |
