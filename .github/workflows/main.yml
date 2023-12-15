@@ -11,6 +11,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4  # Use the latest version that supports node16
 
+      - name: Install libxcb-xinerama0
+        run: sudo apt-get install -y libxcb-xinerama0
+
       - name: Set up Python
         uses: actions/setup-python@v4  # Use the latest version that supports node16
         with:
