@@ -12,4 +12,9 @@ layout: default
 
 ![Pandas-items](assets/images/brandy_melville.png)
 
+### Size Large
+[Site link here...](https://dandyworldwide.com/products/gift-giving-oversized-lux-hoodie-in-heather-gray?variant=41063868006445)
+
+![Pandas-items](assets/images/dandy_hoodie.png)
+
 [back](./)
