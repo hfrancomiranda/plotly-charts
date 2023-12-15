@@ -23,6 +23,7 @@ jobs:
           pip install plotly
           pip install dash
           pip install dash_bootstrap_components
+          pip install openpyxl
 
       - name: Run Python Script
         run: |
