@@ -58,68 +58,30 @@ for person, purchases_to_date in my_dict.items():
     fig.show()
 
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+# create tables
+family_listing = df.loc[(df['Order By'].isnull()), :]
 
-app.layout = html.Div([
-    dcc.Tabs([
-        dcc.Tab([
-            html.Div([
-                dbc.Row(['2023 Xmas Tracking'],
-                        style={'font-weight': 'bold', 'font-size': '30px', 'padding': '20px'}, justify='center'),
-                dbc.Row([
-                    # first table
-                    dbc.Col(html.Div(dash_table.DataTable(data=df.to_dict('records'),
-                                                          columns=[{'id': c, 'name': c,
-                                                                    'presentation': 'markdown'} if c == 'Link' else {
-                                                              'id': c, 'name': c} for c in df.columns],
-                                                          markdown_options={'html': True},
-                                                          filter_action='native',
-                                                          editable=True,
-                                                          sort_action='native',
-                                                          sort_mode='single',
-                                                          page_current=0,
-                                                          page_size=12,
-                                                          style_cell={
-                                                              'whiteSpace': 'normal',
-                                                              'height': 'auto',
-                                                              'maxWidth': '600px',  # for all cols
-                                                              'minWidth': '100px',  # for all cols
-                                                              'textAlign': 'left'
-                                                          },
-                                                          style_data={
-                                                              'color': 'black',
-                                                              'backgroundColor': 'white'
-                                                          },
-                                                          style_data_conditional=[
-                                                              {
-                                                                  'if': {'row_index': 'odd'},
-                                                                  'backgroundColor': 'lightblue',
-                                                                  # set background color for odd rows
-                                                              },
-
-                                                              {
-                                                                  'if': {'row_index': 'even'},
-                                                                  'backgroundColor': 'white',
-                                                                  # set background color for even rows
-                                                              }
-                                                          ],
-                                                          style_header={
-                                                              'backgroundColor': '#000080',  # blue background color
-                                                              'textAlign': 'center',  # center align column headers
-                                                              'color': 'white',  # white font color
-                                                              'fontWeight': 'bold'  # bold font
-                                                          },
-                                                          style_table={'width': '60%'}))),
-
-
-                ])
-            ])
-        ])
+for name in family_listing['Name'].unique():
+    filtered_df = family_listing.loc[(family_listing['Name'] == name), :]
+    # Creating a table using Plotly Graph Objects with custom header style
+    fig2 = go.Figure(data=[go.Table(
+        header=dict(values=list(filtered_df.columns),
+                    fill_color='navy',  # Set header background color
+                    font=dict(color='white', size=14)),  # Set font color and size
+        cells=dict(values=[filtered_df[col] for col in filtered_df.columns]))
     ])
-], className='dbc')
 
-if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    # Customizing the layout
+    fig2.update_layout(
+        title='Customized Table',
+        # margin=dict(l=10, r=10, t=60, b=10),  # Adjust margins
+        # height=300,  # Set the height of the table
+        # autosize=False,  # Disable autosizing
+        # width=500,  # Set the width of the table
+    )
+
+    # Show the figure
+    fig2.show()
 
 
 
