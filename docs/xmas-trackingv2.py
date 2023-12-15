@@ -1,62 +1,59 @@
-
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QComboBox, QVBoxLayout
 import pandas as pd
-import warnings
-import kaleido
-import plotly.graph_objects as go
-import dash
-from dash.dependencies import Input, Output
-import dash_bootstrap_components as dbc
-from dash import html
-import numpy as np
-import warnings
-from dash import dcc
-import plotly.graph_objs as go
-import plotly.express as px
-from dash import dash_table
-warnings.filterwarnings('ignore')
 
-# import file
-Location = r'docs/details.xlsx'
+# Sample DataFrame
+data = {'Name': ['John', 'Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 22, 35],
+        'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']}
+df = pd.DataFrame(data)
 
-# read file
-df = pd.read_excel(Location, sheet_name='details')
+class DataFrameQueryApp(QWidget):
+    def __init__(self):
+        super().__init__()
 
-family_purchases = df[['Name', 'Price']].loc[(df['Order By'] == 'Us'), :].groupby('Name').sum().reset_index()
+        self.init_ui()
 
-# Convert DataFrame to dictionary
-my_dict = dict(zip(family_purchases['Name'], family_purchases['Price']))
+    def init_ui(self):
+        self.setWindowTitle('DataFrame Query App')
 
-total_budget = 375
+        self.name_label = QLabel('Select Name:')
+        self.name_combobox = QComboBox(self)
+        self.name_combobox.addItems(df['Name'].unique())
 
-# Create a gauge chart for each person
-for person, purchases_to_date in my_dict.items():
-    # Calculate the percentage of purchases to date compared to the total budget
-    percentage_purchases = (purchases_to_date / total_budget) * 100
+        self.query_button = QPushButton('Query', self)
+        self.query_button.clicked.connect(self.query_dataframe)
 
-    # Create a gauge chart
-    fig = go.Figure()
+        self.result_label = QLabel(self)
 
-    fig.add_trace(go.Indicator(
-        mode="gauge+number",
-        value=percentage_purchases,
-        title={'text': f"{person}'s Purchases vs Total Budget"},
-        domain={'x': [0, 1], 'y': [0, 1]}
-    ))
+        layout = QVBoxLayout()
+        layout.addWidget(self.name_label)
+        layout.addWidget(self.name_combobox)
+        layout.addWidget(self.query_button)
+        layout.addWidget(self.result_label)
 
-    fig.update_layout(
-        template="plotly_dark",
-        annotations=[
-            {
-                "x": 0.5,
-                "y": 0.5,
-                "text": f"{person}'s Purchases: {purchases_to_date}<br>Total Budget: {total_budget}<br>{percentage_purchases:.2f}%",
-                "showarrow": False,
-                "font": {'size': 20}  # Adjust the font size here
-            }
-        ]
-    )
+        self.setLayout(layout)
 
-    fig.write_image(f'docs/assets/images/{person}_gauge_chart.png', engine='kaleido')
+    def query_dataframe(self):
+        selected_name = self.name_combobox.currentText()
+        self.result_label.clear()  # Clear previous result
+
+        # Query the DataFrame
+        result = df[df['Name'] == selected_name]
+
+        # Display the result
+        if not result.empty:
+            self.result_label.setText(f"Result: {result.to_string(index=False)}")
+        else:
+            self.result_label.setText("No matching records")
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = DataFrameQueryApp()
+    window.show()
+    sys.exit(app.exec_())
+
 
 
 
