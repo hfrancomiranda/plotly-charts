@@ -21,8 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas
           pip install PyQt5
-          pip uninstall opencv-python
-          pip install --no-binary opencv-python opencv-python
 
       - name: Run Python Script
         run: |
