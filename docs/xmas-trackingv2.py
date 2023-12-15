@@ -1,6 +1,7 @@
 
 import pandas as pd
 import warnings
+import kaleido
 import plotly.graph_objects as go
 import dash
 from dash.dependencies import Input, Output
