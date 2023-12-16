@@ -23,4 +23,9 @@ layout: default
 
 ![Pandas-items](assets/images/new_balance2.png)
 
+### Adidas Size 7
+[Site link here...](https://www.adidas.com/us/ozweego-shoes-kids/IG7419.html)
+
+![Pandas-items](assets/images/adidas.png)
+
 [back](./)
