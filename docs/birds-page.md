@@ -16,4 +16,9 @@ layout: default
 
 ![Pandas-items](assets/images/serum2.png)
 
+### Shea Moisture
+[Site link here...](https://www.ulta.com/search?search=SheaMoisture+Coconut+%26+Hibiscus)
+
+![Pandas-items](assets/images/shea.png)
+
 [back](./)
