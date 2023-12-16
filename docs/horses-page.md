@@ -13,7 +13,7 @@ layout: default
 
 ![Pandas-items](assets/images/lulu2.png)
 
-### Bodysuit Color Sienna Size small
+### Bodysuit Color Sienna/Light Grey Size small
 [Site link here...](https://skims.com/products/essential-crew-neck-long-sleeve-bodysuit-sienna)
 
 ![Pandas-items](assets/images/bodysuit.png)
