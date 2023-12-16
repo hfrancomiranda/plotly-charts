@@ -112,4 +112,9 @@ layout: default
 
 ![Pandas-items](assets/images/victoria.png)
 
+### White Fox Top - Size XS Color-Baby Pink
+[Site link here...](https://whitefoxboutique.com/products/taking-off-top-baby-pink?variant=40719614804028)
+
+![Pandas-items](assets/images/white_fox.png)
+
 [back](./)
