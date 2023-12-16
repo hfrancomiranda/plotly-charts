@@ -87,4 +87,9 @@ layout: default
 
 ![Pandas-items](assets/images/patrick.png)
 
+### Selena
+[Site link here...](https://www.sephora.com/product/rare-beauty-by-selena-gomez-warm-wishes-effortless-bronzer-sticks-P479343?country_switch=us&lang=en&skuId=2640225&om_mmc=ppc-GG_17789371101___2518926__9011767_c&gad_source=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJPVkjDGMW-TqioS8I3bo4Lh-Ej6rLWW0IaCrSD_yP10HjNZG5FEmFxoCj1AQAvD_BwE&gclsrc=aw.ds)
+
+![Pandas-items](assets/images/selena.png)
+
 [back](./)
