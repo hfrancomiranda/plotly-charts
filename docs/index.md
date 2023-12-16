@@ -18,7 +18,7 @@
 [Link here...](./fishs-page.html).
 
 ## Horse's page
-[Link here...](./horse-page.html).
+[Link here...](./horses-page.html).
 
 
 
