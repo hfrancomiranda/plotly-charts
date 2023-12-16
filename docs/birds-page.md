@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#![Pandas-items](assets/images/bird_left.png)
+![Pandas-items](assets/images/bird_left.png)
 
 
 ### New Balance Size 6.5M
