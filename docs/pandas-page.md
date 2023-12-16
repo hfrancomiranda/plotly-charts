@@ -107,7 +107,7 @@ layout: default
 
 ![Pandas-items](assets/images/lash_serum.png)
 
-### Victoria Secret
+### Victoria Secret - Size Long Color-Linen
 [Site link here...](https://www.victoriassecret.com/us/vs/apparel-catalog/1122125700?genericId=11221257&choice=68H0&size1=M&size2=Regular&size1=M&cm_mmc=PLA-_-GOOGLE-_-VSD_VS_Lounge/Sport_PMAX-_-&gad_source=1&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMrbMPcXHyqhdpLWx9dAmjM_7YjAh72QIZAnn77giFKUvIN4e97WvsEaAi9MEALw_wcB&gclsrc=aw.ds)
 
 ![Pandas-items](assets/images/victoria.png)
