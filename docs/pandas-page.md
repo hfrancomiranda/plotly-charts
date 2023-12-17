@@ -54,11 +54,6 @@ layout: default
 
 ![Pandas-items](assets/images/bum_bum.png)
 
-### Charlotte Tilbury
-[Site link here...](https://www.sephora.com/product/charlotte-tilbury-mini-pillow-talk-lip-duo-P458268?country_switch=us&lang=en&skuId=2339620&om_mmc=ppc-GG_17791296877___2339620__9011767_c&country_switch=us&lang=en&gad_source=1&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMpTmPctSxt5W9-MNWV8X8uWvftVfS8U6AXDlut7_8P6DJUJ9aI1hS0aApk1EALw_wcB&gclsrc=aw.ds)
-
-![Pandas-items](assets/images/charlotte_tilbury.png)
-
 ### Janeiro
 [Site link here...](https://www.sephora.com/product/cheirosa-travel-perfume-set-P507123)
 
