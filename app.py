@@ -58,27 +58,3 @@ for person, purchases_to_date in my_dict.items():
     fig.write_image(f'docs/{person}_gauge_chart.png')
 
 
-# create tables
-family_listing = df.loc[(df['Order By'].isnull()), :]
-
-for name in family_listing['Name'].unique():
-    filtered_df = family_listing.loc[(family_listing['Name'] == name), :]
-    # Creating a table using Plotly Graph Objects with custom header style
-    fig2 = go.Figure(data=[go.Table(
-        header=dict(values=list(filtered_df.columns),
-                    fill_color='navy',  # Set header background color
-                    font=dict(color='white', size=14)),  # Set font color and size
-        cells=dict(values=[filtered_df[col] for col in filtered_df.columns]))
-    ])
-
-    # Customizing the layout
-    fig2.update_layout(
-        title='Customized Table',
-        # margin=dict(l=10, r=10, t=60, b=10),  # Adjust margins
-        # height=300,  # Set the height of the table
-        # autosize=False,  # Disable autosizing
-        # width=500,  # Set the width of the table
-    )
-
-    # Show the figure
-    fig2.show()
