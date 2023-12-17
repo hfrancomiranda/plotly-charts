@@ -28,6 +28,13 @@ jobs:
         pip install openpyxl
         pip install -U kaleido
 
+    - name: Set up virtual display
+      run: |
+        sudo apt-get install -y xvfb
+        export DISPLAY=:99.0
+        Xvfb $DISPLAY -screen 0 1024x768x24 > /dev/null 2>&1 &
+        sleep 3 # Give xvfb some time to start
+
     - name: Run Dash App
       run: |
         python app.py
