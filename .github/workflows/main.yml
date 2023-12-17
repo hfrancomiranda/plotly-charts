@@ -24,6 +24,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pandas
+        pip uninstall werkzeug
+        pip install -v https://github.com/pallets/werkzeug/archive/refs/tags/2.0.3.tar.gz
 
     - name: Run Dash App
       run: |
