@@ -55,7 +55,7 @@ for person, purchases_to_date in my_dict.items():
         ]
     )
 
-    fig.write_image(f'{person}_gauge_chart.png')
+    fig.write_image(f'docs/{person}_gauge_chart.png')
 
 
 # create tables
