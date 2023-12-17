@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Pandas-items](assets/images/horse_left.png)
+![Pandas-items](assets/images/Horse_gauge_chart.png)
 
 ### Lululemon Color Black/Dahlia Mauve Size 4
 [Site link here...](https://shop.lululemon.com/p/women-sports-bras/Free-To-Be-Bra-Wild/_/prod2810229?color=60310&sz=4)
