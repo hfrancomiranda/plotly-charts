@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Pandas-items](assets/images/panda_left.png)
+![Pandas-items](assets/images/Pandas_gauge_chart.png)
 
 ### Size medium - long 
 [Site link here...](https://www.ae.com/us/en/p/aerie/bottoms/flare-bootcut-leggings/offline-by-aerie-real-me-high-waisted-crossover-flare-legging/0702_5230_788?menu=cat1090003)
