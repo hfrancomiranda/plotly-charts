@@ -26,6 +26,7 @@ jobs:
         pip install pandas
         pip install dash-bootstrap-components
         pip install openpyxl
+        pip install -U kaleido
 
     - name: Run Dash App
       run: |
