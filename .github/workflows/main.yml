@@ -33,3 +33,8 @@ jobs:
       run: |
         python app.py
 
+    - name: Debug
+      run: |
+        echo "Current Directory: $(pwd)"
+        echo "Contents of 'docs' directory: $(ls -la docs)"
+
