@@ -31,5 +31,5 @@ jobs:
 
     - name: Run Dash App
       run: |
-        app.py
+        python app.py
 
