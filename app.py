@@ -15,7 +15,7 @@ from dash import dash_table
 warnings.filterwarnings('ignore')
 
 # import file
-Location = r'docs/details.xlsx'
+Location = r'docs/details_final.xlsx'
 
 # read file
 df = pd.read_excel(Location, sheet_name='details')
