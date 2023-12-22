@@ -54,11 +54,6 @@ layout: default
 
 ![Pandas-items](assets/images/bum_bum.png)
 
-### Janeiro
-[Site link here...](https://www.sephora.com/product/cheirosa-travel-perfume-set-P507123)
-
-![Pandas-items](assets/images/janeiro.png)
-
 ### Drunk Elephant
 [Site link here...](https://www.sephora.com/product/b-hydra-intensive-hydration-gel-P406712?skuId=1785856&icid2=products%20grid:p406712:product)
 
@@ -78,16 +73,6 @@ layout: default
 [Site link here...](https://www.sephora.com/product/rare-beauty-by-selena-gomez-warm-wishes-effortless-bronzer-sticks-P479343?country_switch=us&lang=en&skuId=2640225&om_mmc=ppc-GG_17789371101___2518926__9011767_c&gad_source=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJPVkjDGMW-TqioS8I3bo4Lh-Ej6rLWW0IaCrSD_yP10HjNZG5FEmFxoCj1AQAvD_BwE&gclsrc=aw.ds)
 
 ![Pandas-items](assets/images/selena.png)
-
-### Lash Serum
-[Site link here...](https://www.ulta.com/p/multi-peptide-lash-brow-serum-pimprod2033455?sku=2592847&cmpid=PS_Non!google!Product_Listing_Ads&utm_source=google&utm_medium=paidsearch&cagpspn=pla&CATCI=&CAAGID=&CAWELAID=330000200002891410&gad_source=1&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMrY8XGZ9jZjMOT_EWeL0SVZBwRJQ34pRCx92Qtj68ZXHA5N4mkkZ5YaAl3zEALw_wcB)
-
-![Pandas-items](assets/images/lash_serum.png)
-
-### Victoria Secret - Size Long Color-Linen
-[Site link here...](https://www.victoriassecret.com/us/vs/apparel-catalog/1122125700?genericId=11221257&choice=68H0&size1=M&size2=Regular&size1=M&cm_mmc=PLA-_-GOOGLE-_-VSD_VS_Lounge/Sport_PMAX-_-&gad_source=1&gclid=Cj0KCQiApOyqBhDlARIsAGfnyMrbMPcXHyqhdpLWx9dAmjM_7YjAh72QIZAnn77giFKUvIN4e97WvsEaAi9MEALw_wcB&gclsrc=aw.ds)
-
-![Pandas-items](assets/images/victoria.png)
 
 ### White Fox Top - Size XS Color-Baby Pink
 [Site link here...](https://whitefoxboutique.com/products/taking-off-top-baby-pink?variant=40719614804028)
