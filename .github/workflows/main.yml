@@ -44,6 +44,3 @@ jobs:
         name: gauge-charts
         path: docs/*.png
 
-    - name: Open image files
-      run: xdg-open docs/*.png
-
