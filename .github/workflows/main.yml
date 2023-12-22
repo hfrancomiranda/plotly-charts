@@ -33,9 +33,6 @@ jobs:
       run: |
         python app.py
 
-    - name: Change file permissions
-      run: chmod -R 755 docs/
-
     - name: Debug
       run: |
         echo "Current Directory: $(pwd)"
@@ -46,4 +43,7 @@ jobs:
       with:
         name: gauge-charts
         path: docs/*.png
+
+    - name: Open image files
+      run: xdg-open docs/*.png
 
