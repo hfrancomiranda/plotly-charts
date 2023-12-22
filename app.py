@@ -31,6 +31,7 @@ total_budget = 375
 for person, purchases_to_date in my_dict.items():
     # Calculate the percentage of purchases to date compared to the total budget
     percentage_purchases = (purchases_to_date / total_budget) * 100
+    amount_left = total_budget - purchases_to_date
 
     # Create a gauge chart
     fig = go.Figure()
@@ -48,7 +49,7 @@ for person, purchases_to_date in my_dict.items():
             {
                 "x": 0.5,
                 "y": 0.5,
-                "text": f"{person}'s Purchases: {purchases_to_date}<br>Total Budget: {total_budget}<br>{percentage_purchases:.2f}%",
+                "text": f"{person}'s Purchases: {purchases_to_date}<br>Total Budget: {total_budget}<br>Amount Left: {amount_left}<br>{percentage_purchases:.2f}%",
                 "showarrow": False,
                 "font": {'size': 15}  # Adjust the font size here
             }
